@@ -24,20 +24,20 @@ alert显示字符串才有效，如果是显示对象只能看到[object]提示�
 
 在chrome和IE11（后面都是用这两版本浏览器测试）下打印console对象。
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/IE11console.png)
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromeconsole.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/IE11console.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromeconsole.png)
 
 # console的具体方法
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chrome1.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chrome1.png)
 
 ## console.log()
 
 console.log()用于在控制台输出日志信息，接受多个参数，参数之间用逗号分隔。
 如果第一个参数使用格式占位符,console.log()方法将依次用后面的参数替换占位符，然后再进行输出。
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromelog.png)
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromecolor.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromelog.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromecolor.png)
 
 |占位符| 类型 |
 | ---  | ---  |
@@ -53,13 +53,13 @@ console.info、console.debug和console.log的用法是一样的。
 
 assert方法，至少接收两个参数，第一参数是Boolean值。如果第一个参数是false，则输出一个错误信息，如果是true，什么也没输出。
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromeassert.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromeassert.png)
 
 ## console.count()
 
 在调用count()方法时记录次数，count()方法有个可选的参数。有个参数存在，则会输出该参数，后面跟着次数。
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromecount.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromecount.png)
 
 ## console.dir()
 
@@ -78,9 +78,9 @@ console.dir(arr);
 console.dir(document);
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/dirObject.png)
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/dirArr.png)
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/dirDoc.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/dirObject.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/dirArr.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/dirDoc.png)
 
 ## console.dirxml(object)
 
@@ -90,8 +90,8 @@ console.dir(document);
 
 error()控制台打印一段错误信息。warn()输出警告信息。
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/error.png)
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/warnanderror.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/error.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/warnanderror.png)
 
 ## console.group()、console.groupCollapsed()、console.groupEnd()
 
@@ -108,7 +108,7 @@ console.groupEnd();
 console.groupEnd();
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/group.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/group.png)
 
 ```
 console.groupCollapsed("第一组");
@@ -119,7 +119,7 @@ console.groupEnd();
 console.groupEnd();
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/groupCollapsed.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/groupCollapsed.png)
 
 ## console.table()
 
@@ -135,7 +135,7 @@ var arr = [
 console.table(arr);
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/table.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/table.png)
 
 ## console.profile()和console.profileEnd()
 
@@ -156,7 +156,7 @@ startProfile();
 console.profileEnd();
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/profile.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/profile.png)
 
 # console.time()和console.timeEnd()
 
@@ -170,7 +170,7 @@ for(var i = 0; i < 25; i ++) {
 console.timeEnd("定时器");
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/time.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/time.png)
 
 # console.clear()
 清空控制台。
@@ -199,7 +199,7 @@ function functionD() {
 functionD();
 ```
 
-[](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/trace.png)
+![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/trace.png)
 
 # 值得注意的问题。
 

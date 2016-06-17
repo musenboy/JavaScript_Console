@@ -1,20 +1,17 @@
 # JavaScript console
 
----
-
 > 原文：
 
-使用console调试，前端开发是必不可少的。平时用的最多的是console.log(),但是console不止只有log这个方法。
+使用console调试，前端开发是必不可少的。平时用的最多的是console.log()，但是console不只是有log这个方法。
 
 # console是什么？
 
-JS是没有console对象的，这是浏览器提供的对象。使用console对象可以在浏览器控制台输出信息，在不同的浏览器中输出效果可能不同。
-火狐开发者文档对console的定义是：The Console object provides access to the browser's debugging console。
+JS原生是没有console对象的，这是浏览器内置提供的console对象。使用console对象可以在浏览器控制台输出信息，在不同的浏览器中输出效果可能不同。火狐开发者文档对console的定义是：The Console object provides access to the browser's debugging console。
 
 # 为什么用console不用alert？
 
 alert弹出窗口会中断程序，如果alert是处于一个轮询中，只能在后台关闭浏览器进程，否则无法对浏览器进行任何操作。
-alert显示字符串才有效，如果是显示对象只能看到[object]提示，因此用console好很多。
+alert显示字符串才有效，如果是对象只能看到[object]提示，因此用console好很多。
 
 # 什么浏览器支持console。
 
@@ -34,7 +31,7 @@ alert显示字符串才有效，如果是显示对象只能看到[object]提示�
 ## console.log()
 
 console.log()用于在控制台输出日志信息，接受多个参数，参数之间用逗号分隔。
-如果第一个参数使用格式占位符,console.log()方法将依次用后面的参数替换占位符，然后再进行输出。
+如果第一个参数使用格式占位符，console.log()方法将依次用后面的参数替换占位符，然后再进行输出。
 
 ![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromelog.png)
 ![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromecolor.png)
@@ -57,7 +54,7 @@ assert方法，至少接收两个参数，第一参数是Boolean值。如果第�
 
 ## console.count()
 
-在调用count()方法时记录次数，count()方法有个可选的参数。有个参数存在，则会输出该参数，后面跟着次数。
+在调用console.count()方法时记录次数，console.count()方法有个可选的参数。参数存在，则会输出该参数，后面跟着记录次数。
 
 ![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/chromecount.png)
 
@@ -84,7 +81,7 @@ console.dir(document);
 
 ## console.dirxml(object)
 
-把xml/html元素的xml/html 代码打印出来,等同于log.
+把xml/html元素的xml/html代码打印出来，等同于log.
 
 ## console.error()、console.warn()
 
@@ -139,7 +136,7 @@ console.table(arr);
 
 ## console.profile()和console.profileEnd()
 
-这是分析一段代码的性能。可传入一个参数作为分析的名称。
+这是分析一段代码的性能，可传入一个参数作为分析的名称。
 
 ```
 function startProfile() {
@@ -173,9 +170,11 @@ console.timeEnd("定时器");
 ![](https://raw.githubusercontent.com/musenboy/JavaScript_Console/master/images/time.png)
 
 # console.clear()
+
 清空控制台。
 
 # console.trace()
+
 追踪函数的调用过程。
 
 ```
